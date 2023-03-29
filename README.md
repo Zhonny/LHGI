@@ -4,3 +4,4 @@ The code is for paper "Unsupervised Embedding Learning for Large-Scale Heterogen
 you need pytorch and torch_geometric
 
 How to install geometric click in :https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+test data in release LHGI1.0
