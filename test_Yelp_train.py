@@ -56,7 +56,7 @@ if __name__ == '__main__':
                  [('business', 'user'), ('user', 'business')],
                  ]
 
-    dataset = torch.load('D:\Python_program\my_DGI\HG_Yelp\processed\data_0.pt')
+    dataset = torch.load('Yelp.pt')
     data = dataset
     data = T.ToUndirected()(data)
     data=T.AddMetaPaths(metapaths=metapaths, drop_orig_edges=True,
